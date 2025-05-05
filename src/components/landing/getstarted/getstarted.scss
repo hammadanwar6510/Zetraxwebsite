@@ -1,0 +1,98 @@
+.getstartedmain {
+
+    background-image: url('../../../Assests/getstartedbg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-bottom: 1px solid #11151A;
+
+    .cntgetstarted {
+        margin-top: 80px;
+        margin-bottom: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+
+        .chlcnt {
+            display: flex;
+            max-width: 464px;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            gap: 18px;
+
+            h2 {
+                color: #FFF;
+                text-align: center;
+                font-size: 50px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 120%;
+            }
+
+            p {
+                color: #929292;
+                text-align: center;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 120%;
+            }
+        }
+
+        .buttonsgetstarted {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+
+            .buttononegetstarted {
+                display: flex;
+                width: 140px;
+                padding: 15px 0px;
+                justify-content: center;
+                align-items: center;
+                gap: 8px;
+                color: #FFF;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 120%;
+                text-transform: uppercase;
+                border-radius: 4px;
+                background: #0571FE;
+                border: none;
+            }
+
+            .buttontwogetstarted {
+                padding: 15px 0px;
+                color: #0571FE;
+                font-size: 12px;
+                width: 140px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 120%;
+                text-transform: uppercase;
+                border-radius: 4px;
+                border: 1px solid #001F48;
+                background: #05090E;
+            }
+            .buttonthreegetstarted{
+                width: 72px !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px){
+    .getstartedmain .cntgetstarted .chlcnt h2{
+        font-size: 36px;
+    }
+    .getstartedmain .cntgetstarted{
+        gap: 30px;
+    }
+    .getstartedmain .cntgetstarted .buttonsgetstarted{
+        gap: 10px;
+    }
+}

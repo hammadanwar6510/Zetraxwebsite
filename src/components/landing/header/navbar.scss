@@ -1,0 +1,194 @@
+.navbarmain {
+
+    width: 100%;
+    background: linear-gradient(180deg, #05090E 0%, rgba(5, 9, 14, 0.00) 50.07%), linear-gradient(180deg, rgba(5, 9, 14, 0.00) 0%, #05090E 100%) !important;
+
+    .navbar {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        background: linear-gradient(180deg, #05090E 0%, rgba(5, 9, 14, 0.00) 50.07%), linear-gradient(180deg, rgba(5, 9, 14, 0.00) 0%, #05090E 100%) !important;
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            .navbar-collapse {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .navbar-nav {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 30px;
+                    width: 100%;
+                    
+                    
+
+                    .nav-link {
+                        color: #FFF;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+                        line-height: 120%;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+
+            .buttonnav {
+                display: inline-flex;
+                padding: 9px 10px;
+                align-items: center;
+                gap: 8px;
+                border-radius: 4px;
+                background: #0571FE;
+                color: #FFF;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 120%;
+                text-transform: uppercase;
+                border: none;
+            }
+
+            .offcanvasbutton {
+                background-color: transparent;
+                border: none;
+                display: none;
+            }
+
+        }
+    }
+}
+
+.fade.offcanvas-backdrop.show {
+    height: 100vh;
+}
+
+.navbar-toggler {
+    display: none !important;
+}
+
+.offcanvas-header .btn-close {
+    display: none;
+
+}
+
+.offcanvasheader {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 100%;
+
+
+}
+
+.offcanvas {
+    background: #04080D;
+    height: 100vh !important;
+z-index: 9999999;
+}
+
+.offcanvas-header {
+    padding: 14px 20px 13px 20px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+.offcanvasbody {
+    padding: 0px;
+    position: relative;
+
+    .me-auto {
+        display: flex;
+        align-items: flex-start;
+        justify-content: start;
+        flex-direction: column;
+        width: 100%;
+
+        .nav-item {
+            padding: 19px 20px;
+            width: 100%;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+            a {
+                padding: 0px;
+                color: #FFF;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 100%;
+            }
+        }
+
+        .anchoroffcanvas {
+            padding: 0px;
+            color: #FFF;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 100%;
+            padding: 19px 20px;
+            width: 100%;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+            &:hover {
+                background: rgba(0, 119, 255, 0.02);
+                color: #0571FE;
+            }
+        }
+    }
+
+    .offcanvasbutton {
+        position: absolute;
+        bottom: 0px !important;
+        padding: 20px;
+        width: 100%;
+
+        button {
+            display: flex;
+            height: 50px;
+            padding: 9px 10px;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            flex-shrink: 0;
+            width: 100%;
+            border-radius: 4px;
+            background: #0571FE;
+            border: none;
+            color: #FFF;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%;
+            text-transform: uppercase;
+        }
+
+    }
+}
+
+@media (max-width: 991px) {
+    .navbarmain .navbar .container .navbar-collapse .navbar-nav {
+        display: none !important;
+    }
+
+    .navbarmain .navbar .container {
+        display: flex !important;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbarmain .navbar .container .buttonnav {
+        display: none;
+    }
+
+    .navbarmain .navbar .container .offcanvasbutton {
+        display: block;
+    }
+}

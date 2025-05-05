@@ -1,0 +1,43 @@
+.marqueelines {
+    padding: 45px;
+    border-bottom: 1px solid #11151A;
+    background: #05090E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 29px;
+    overflow: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    .cntchldmarquee {
+        flex: 0 0 auto;
+
+        .marqueeparagraph {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #929292;
+            text-wrap: nowrap;
+            font-size: 12px;
+            -ms-overflow-style: none;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%;
+            text-transform: uppercase;
+
+            .svgmarquee {
+                padding: 7px;
+                border-radius: 2px;
+                background-color: rgba(5, 113, 254, 0.10);
+                fill: #0571FE;
+            }
+        }
+    }
+}
+@media (max-width: 991px){
+    .marqueelines{
+        justify-content: flex-start;
+    }
+}

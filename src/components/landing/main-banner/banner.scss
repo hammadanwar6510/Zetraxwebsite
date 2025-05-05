@@ -1,0 +1,124 @@
+.main-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+    border-bottom: 1px solid #11151A;
+    overflow: hidden;
+    background: linear-gradient(180deg, #05090E 0%, rgba(5, 9, 14, 0.00) 50.07%), linear-gradient(180deg, rgba(5, 9, 14, 0.00) 0%, #05090E 100%) !important;
+
+
+
+    .bg-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+
+    .mainbannerchld {
+
+        max-width: 490px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 61px;
+        z-index: 9;
+        position: relative;
+        z-index: 1;
+        color: white;
+        text-align: center;
+
+        .cntmainbanner {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            width: 100%;
+
+            h1 {
+                color: #FFF;
+                text-align: center;
+                font-size: 62px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 110%;
+            }
+
+            p {
+                color: #FFF;
+                text-align: center;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 120%;
+            }
+
+        }
+
+        .buttonmainbanner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+
+            .buttonnav {
+                display: flex;
+                width: 143px;
+                padding: 15px 10px;
+                justify-content: center;
+                align-items: center;
+                gap: 8px;
+                flex-shrink: 0;
+                width: 143px;
+                border-radius: 4px;
+                background: #0571FE;
+                color: #FFF;
+
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                border: none;
+
+                line-height: 120%;
+                text-transform: uppercase;
+            }
+
+            .buttonbannersec {
+                display: flex;
+                padding: 15px 23px;
+                justify-content: center;
+                align-items: center;
+                gap: 8px;
+                flex: 1 0 0;
+                border-radius: 4px;
+                border: 1px solid #001F48;
+                background: #05090E;
+                color: #0571FE;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 120%;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+@media (max-width: 991px) {
+    .main-banner .mainbannerchld .cntmainbanner h1{
+        font-size: 24px;
+    }
+    .main-banner .mainbannerchld{
+        gap: 45px;
+    }
+    
+   
+  }

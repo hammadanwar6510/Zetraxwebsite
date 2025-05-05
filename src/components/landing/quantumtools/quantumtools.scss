@@ -1,0 +1,167 @@
+.quantumtoolmain {
+
+    border-bottom: 1px solid #11151A;
+    width: 100%;
+    position: relative;
+    .shadowimg{
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translate(-50%, 0%);
+        z-index: 999;
+    }
+
+    .chldqunatumtool {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 80px;
+        width: 100%;
+
+        .headerquantumtool {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 18px;
+
+            h2 {
+                color: #FFF;
+                text-align: center;
+                font-size: 50px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 120%;
+            }
+
+            P {
+                color: #929292;
+                text-align: center;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 120%;
+                max-width: 310px;
+
+            }
+        }
+
+        .cardquantumtoolprnt {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            position: relative;
+            width: 100%;
+
+            .firstcardquatumtool {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                padding: 60px 131px 85px 88px;
+                border-top: 1px solid #21252B;
+                border-bottom: 1px solid #21252B;
+                background: #04080D;
+
+
+                position: sticky;
+                top: 100px;
+                transition: all 0.3s ease-in-out;
+
+
+               
+                &:nth-child(1) {
+                    z-index: 1;
+                  }
+                  &:nth-child(2) {
+                    z-index: 2;
+                  }
+                  &:nth-child(3) {
+                    z-index: 3;
+                  }
+                  &:nth-child(4) {
+                    z-index: 4;
+                  }
+
+                
+                .cntfirstcardquntumtool {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 15px;
+
+                    span {
+                        margin-bottom: 35px;
+                        color: #0571FE;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 120%;
+                        text-transform: uppercase;
+                    }
+
+                    h3 {
+                        color: #FFF;
+                        font-size: 38px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 120%;
+                    }
+
+                    p {
+                        max-width: 481px;
+                        width: 100%;
+                        color: #929292;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 120%;
+                       
+                    }
+                }
+
+              
+            }
+        }
+    }
+}
+@media (max-width: 991px){
+    .quantumtoolmain .chldqunatumtool .cardquantumtoolprnt .firstcardquatumtool{
+        padding: 30px 61px 45px 44px;
+        .postiontopsvg{
+            position: absolute;
+            top: 5px;
+            right: 20px;
+            width: 106px;
+height: 106px;
+        }
+    }
+    .quantumtoolmain .chldqunatumtool .cardquantumtoolprnt .firstcardquatumtool .cntfirstcardquntumtool p{
+        max-width: 370px;
+        width: 100%;
+        font-size: 14px;
+    }
+    .quantumtoolmain .chldqunatumtool .cardquantumtoolprnt .firstcardquatumtool .cntfirstcardquntumtool h3{
+        font-size: 20px;
+    }
+
+    .quantumtoolmain .chldqunatumtool .headerquantumtool h2{
+        font-size: 36px;
+    }
+    .quantumtoolmain .chldqunatumtool .cardquantumtoolprnt{
+        margin-top: -30px;
+    }
+
+    .securitytoolsprnt .chldsecuritytools{
+       
+    }
+    .quantumtoolmain .chldqunatumtool .headerquantumtool P{
+        margin-bottom: 40px;
+    }
+    .custum-container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

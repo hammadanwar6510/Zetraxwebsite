@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dd139d96.chunk.css",
+    "main.js": "/static/js/main.a21069e2.chunk.js",
+    "main.js.map": "/static/js/main.a21069e2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ae9b2d4d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ae9b2d4d.js.map",
+    "static/css/2.e434f813.chunk.css": "/static/css/2.e434f813.chunk.css",
+    "static/js/2.40902ca4.chunk.js": "/static/js/2.40902ca4.chunk.js",
+    "static/js/2.40902ca4.chunk.js.map": "/static/js/2.40902ca4.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.e434f813.chunk.css.map": "/static/css/2.e434f813.chunk.css.map",
+    "static/css/main.dd139d96.chunk.css.map": "/static/css/main.dd139d96.chunk.css.map",
+    "static/js/2.40902ca4.chunk.js.LICENSE.txt": "/static/js/2.40902ca4.chunk.js.LICENSE.txt",
+    "static/media/getstarted.scss": "/static/media/getstartedbg.90ba1c0d.png",
+    "static/media/quantum.scss": "/static/media/quantumbg.c77e6e27.png",
+    "static/media/quantumprotocol.scss": "/static/media/quantumprotocolbg.5bc1263e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae9b2d4d.js",
+    "static/css/2.e434f813.chunk.css",
+    "static/js/2.40902ca4.chunk.js",
+    "static/css/main.dd139d96.chunk.css",
+    "static/js/main.a21069e2.chunk.js"
+  ]
+}

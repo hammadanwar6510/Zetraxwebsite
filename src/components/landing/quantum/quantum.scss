@@ -1,0 +1,161 @@
+.quantumparent {
+    background-image: url('../../../Assests/quantumbg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #11151A;
+background: #04080D;
+width: 100%;
+
+
+    .chldqunatum {
+        display: flex;
+        padding: 80px 0px;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+        width: 100%;
+
+        .cntquantum {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            max-width: 361px;
+            width: 100%;
+
+            h2 {
+                color: #FFF;
+                text-align: center;
+                font-size: 50px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 120%;
+            }
+
+            p {
+                color: #929292;
+                text-align: center;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 120%;
+            }
+
+        }
+
+        .cardquantum {
+            display: flex;
+            height: 254px;
+            align-items: center;
+            gap: 10px;
+
+            .firstcard {
+                display: flex;
+                padding: 24px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+                flex: 1 0 0;
+                width: 100%;
+                border-radius: 6px;
+                border: 1px solid #11151A;
+                background: #04080D;
+                max-width: 282px;
+                width: 100%;
+                position: relative;
+                padding: 1.5rem;
+                border: 2px solid rgba(255, 255, 255, 0.1);
+                border-radius: 10px;
+                transition: all 0.3s ease;
+                background: #04080D;
+                color: white;
+                cursor: pointer;
+                overflow: hidden;
+
+                .svgcard1 {
+                    margin-bottom: 65px;
+                }
+
+                svg path {
+                    transition: stroke 0.3s ease, fill 0.3s ease;
+                }
+
+                p {
+                    color: #FFF;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 120%;
+                    margin-bottom: 25px;
+                }
+
+                a {
+                    display: flex;
+                    height: 14px;
+                    align-items: center;
+                    gap: 8px;
+                    color: #0571FE;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 120%;
+                    text-transform: uppercase;
+                }
+
+                // Glowing light element
+                &::after {
+                    content: '';
+                    position: absolute;
+                    bottom: -20px;
+                    right: -20px;
+                    width: 100px;
+                    height: 100px;
+                    background: #0571FE;
+                    filter: blur(40px);
+                    border-radius: 50%;
+                    opacity: 0;
+                    transition: opacity 0.3s ease;
+                    pointer-events: none;
+                }
+
+                // Hover Effects
+                &:hover {
+                    border-color: #0571FE;
+
+                    svg path {
+                        stroke: #0571FE;
+                        fill: rgba(5, 113, 254, 0.1); // light fill on hover
+                    }
+
+                    &::after {
+                        opacity: 1;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .quantumparent .chldqunatum .cardquantum{
+        display: grid;
+        grid-template-columns: 1fr ;
+        height: 100%;
+        width: 100%;
+    }
+    .quatumprotocol .chldmobilesecurity{
+        display: flex !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+    }
+    .quantumparent .chldqunatum .cardquantum .firstcard{
+        max-width: 991px;
+        width: 100%;
+    }
+    .quantumparent .chldqunatum .cntquantum h2{
+        font-size: 36px;
+    }
+   
+  }
