@@ -142,11 +142,11 @@
 
     .securitytoolsprnt .chldsecuritytools .cardsecuritytools .securitycardchld {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
     }
 
     .securitytoolsprnt .chldsecuritytools .cardsecuritytools .securitycardchldsec {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
     }
 
 

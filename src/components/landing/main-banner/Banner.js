@@ -1,24 +1,22 @@
 
 import React from "react";
 import "./banner.scss";
-import "react-toastify/dist/ReactToastify.css";
-import { Link } from "react-router-dom";
-import Navbarss from "../header/Navbar";
+
 
 const Banner = () => {
   return (
     <>
 
       <section className="main-banner ">
-      <video className='bg-video'
-            muted="muted" playsinline="playsinline"
-            autoPlay
-            loop
-            width="100%"
-            id="myVideo">
-            <source src="\assets\bannervideo.mp4" type="video/mp4" />
-          </video>
-      
+        <video className='bg-video'
+          muted="muted" playsinline="playsinline"
+          autoPlay
+          loop
+          width="100%"
+          id="myVideo">
+          <source src="\assets\bannervideo.mp4" type="video/mp4" />
+        </video>
+
         <di className="custum-container">
 
           <div className="mainbannerchld">
