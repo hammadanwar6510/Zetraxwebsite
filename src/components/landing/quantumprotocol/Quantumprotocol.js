@@ -4,7 +4,9 @@ const Quantumprotocol = () => {
     return (
         <>
             <div className="quatumprotocol">
-            <video className='bg-video'
+
+                <div className="custum-container">
+                <video className='bg-video'
             muted="muted" playsinline="playsinline"
             autoPlay
             loop
@@ -12,10 +14,8 @@ const Quantumprotocol = () => {
             id="myVideo">
             <source src="\assets\quantumprotocolvideo.mp4" type="video/mp4" />
           </video>
-            
-        <span className='videoseactiontwo'></span>
-                <div className="custum-container">
 
+        <span className='videoseactiontwo'></span>
                     <div className="chldmobilesecurity">
                         <div className="leftcntmobilesecurity">
                             <div className="topdivcnt">

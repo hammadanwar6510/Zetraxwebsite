@@ -5,9 +5,10 @@ const Quantum = () => {
     return (
         <>
             <div className="quantumparent">
+
+                <div className="custum-container">
                 <img src='\assets\leftsideshaddow.png' className='leftside' />
                 <img src='\assets\rightside.png' className='rightside' />
-                <div className="custum-container">
                     <div className="chldqunatum">
                         <div className="cntquantum">
                             <h2>
