@@ -11,8 +11,9 @@
         top: 0;
         right: 0;
         width: 787px;
+        mix-blend-mode: lighten;
         height: 443px;
-        background: linear-gradient(180deg, rgba(4, 8, 13, 0.00) 18.96%, rgba(4, 8, 13, 0.70) 75.81%, #04080D 96.54%);
+        background:unset;
         object-fit: cover;
         z-index: 9;
 
@@ -25,7 +26,7 @@
         max-width: 787px;
         width: 100%;
         height: 443px;
-        background: linear-gradient(246deg, rgba(4, 8, 13, 0) -118.04%, rgba(4, 8, 13, 0.7) 60.81%, #04080D 102.54%);
+        // background: linear-gradient(246deg, rgba(4, 8, 13, 0) -118.04%, rgba(4, 8, 13, 0.7) 60.81%, #04080D 102.54%);
     }
 
     .chldmobilesecurity {
@@ -42,7 +43,7 @@
             width: 100%;
             position: relative;
             z-index: 999;
-        
+
 
             .topdivcnt {
                 display: flex;
@@ -148,7 +149,7 @@
         grid-template-columns: 1fr;
     }
 
-    
+
     .quatumprotocol .bg-video{
         left: 0px;
 

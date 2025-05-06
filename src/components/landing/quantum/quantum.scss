@@ -5,6 +5,19 @@
     border-bottom: 1px solid #11151A;
 background: #04080D;
 width: 100%;
+position: relative;
+overflow: hidden;
+.leftside{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.rightside{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
 
 
     .chldqunatum {
@@ -122,7 +135,7 @@ width: 100%;
                 // Hover Effects
                 &:hover {
                     border-color: #0571FE;
-
+                    box-shadow: 7px 20px 94px rgba(5, 113, 254, 0.4);
                     svg path {
                         stroke: #0571FE;
                         fill: rgba(5, 113, 254, 0.1); // light fill on hover
@@ -157,5 +170,5 @@ width: 100%;
     .quantumparent .chldqunatum .cntquantum h2{
         font-size: 36px;
     }
-   
+
   }

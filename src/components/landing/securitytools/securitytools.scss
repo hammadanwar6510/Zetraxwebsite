@@ -81,7 +81,7 @@
                     overflow: hidden;
 
 
-                    
+
 
                     .svgcard1 {
                         margin-bottom: 25px;
@@ -107,13 +107,15 @@
                         pointer-events: none;
                     }
 
-                    
+
                     &:hover {
                         border-color: #0571FE;
+                        box-shadow: 7px 20px 94px rgba(5, 113, 254, 0.4);
+
 
                         svg path {
                             stroke: #0571FE;
-                            fill: rgba(5, 113, 254, 0.1); 
+                            fill: rgba(5, 113, 254, 0.1);
                         }
 
                         &::after {
@@ -206,7 +208,8 @@
 
                     &:hover {
                         border-color: #0571FE;
-
+                        box-shadow: 7px 20px 94px rgba(5, 113, 254, 0.4);
+                    
                         svg path {
                             stroke: #0571FE;
                             fill: rgba(5, 113, 254, 0.1);

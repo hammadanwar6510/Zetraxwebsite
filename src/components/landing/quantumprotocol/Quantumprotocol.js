@@ -4,10 +4,15 @@ const Quantumprotocol = () => {
     return (
         <>
             <div className="quatumprotocol">
-            <video autoPlay loop muted className="bg-video">
-        <source src="\assets\quantumprotocolvideo.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+            <video className='bg-video'
+            muted="muted" playsinline="playsinline"
+            autoPlay
+            loop
+            width="100%"
+            id="myVideo">
+            <source src="\assets\quantumprotocolvideo.mp4" type="video/mp4" />
+          </video>
+            
         <span className='videoseactiontwo'></span>
                 <div className="custum-container">
 
@@ -53,7 +58,7 @@ const Quantumprotocol = () => {
                                     </defs>
                                 </svg> Evolves from ZetraX AI legacy tools</p>
                             </div>
-                          
+
                         </div>
                         <img className='img-fluid' src="\assets\quantumprotocoleimg.png" alt="" />
                     </div>
