@@ -24,7 +24,15 @@ const Securitytools = () => {
                                     </svg>
                                     <h3>Token Scanner</h3>
                                     <p>Detects risks like rug pulls, honeypots, and high taxes by analyzing token contracts, helping users avoid scams and make safer trading decisions.</p>
-                                    <button>Explore Tool</button>
+                                    {/* <button>Explore Tool</button> */}
+                                    <button className="animated-button buttonnav">
+                                        <div className="btn-flip" data-back="Est labore molestiae ex quos perspi sit commodi" data-front="Est labore molestiae ex quos perspi sit commodi">
+                                            <div className="front"> Explore Tool
+                                            </div>
+                                            <div className="back">Explore Tool
+                                            </div>
+                                        </div>
+                                    </button>
                                 </div>
                                 <div className="firstcard">
                                     <svg className='svgcard1' xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -33,7 +41,14 @@ const Securitytools = () => {
                                     </svg>
                                     <h3>Wallet Inspector</h3>
                                     <p>Scans for risky approvals and flags blacklisted addresses, helping users spot and avoid potential threats in their wallet activity.</p>
-                                    <button>Explore Tool</button>
+                                    <button className="animated-button buttonnav">
+                                        <div className="btn-flip" data-back="Est labore molestiae ex quos perspi sit commodi" data-front="Est labore molestiae ex quos perspi sit commodi">
+                                            <div className="front"> Explore Tool
+                                            </div>
+                                            <div className="back">Explore Tool
+                                            </div>
+                                        </div>
+                                    </button>
                                 </div>
                             </div>
                             <div className="securitycardchldsec">
@@ -45,7 +60,14 @@ const Securitytools = () => {
                                     </svg>
                                     <h3>Liquidity Tracker</h3>
                                     <p>Provides insights into liquidity pool (LP) lock and unlock events, helping users monitor fund security and detect potential rug pulls.</p>
-                                    <button>Explore Tool</button>
+                                    <button className="animated-button buttonnav">
+                                        <div className="btn-flip" data-back="Est labore molestiae ex quos perspi sit commodi" data-front="Est labore molestiae ex quos perspi sit commodi">
+                                            <div className="front"> Explore Tool
+                                            </div>
+                                            <div className="back">Explore Tool
+                                            </div>
+                                        </div>
+                                    </button>
                                 </div>
                                 <div className="firstcard">
                                     <svg className='svgcard1' xmlns="http://www.w3.org/2000/svg" width="31" height="30" viewBox="0 0 31 30" fill="none">
@@ -56,7 +78,14 @@ const Securitytools = () => {
                                     </svg>
                                     <h3>Holder Analyzer</h3>
                                     <p>Tracks whale movements and mint activity, giving insights into large transactions and token distribution trends.</p>
-                                    <button>Explore Tool</button>
+                                    <button className="animated-button buttonnav">
+                                        <div className="btn-flip" data-back="Est labore molestiae ex quos perspi sit commodi" data-front="Est labore molestiae ex quos perspi sit commodi">
+                                            <div className="front"> Explore Tool
+                                            </div>
+                                            <div className="back">Explore Tool
+                                            </div>
+                                        </div>
+                                    </button>
                                 </div>
                                 <div className="firstcard">
                                     <svg className='svgcard1' xmlns="http://www.w3.org/2000/svg" width="31" height="30" viewBox="0 0 31 30" fill="none">
@@ -65,7 +94,14 @@ const Securitytools = () => {
                                     </svg>
                                     <h3>Contract Checker</h3>
                                     <p>Uses AI to detect code anomalies in smart contracts, helping identify bugs, risks, or suspicious patterns before deployment.</p>
-                                    <button>Explore Tool</button>
+                                    <button className="animated-button buttonnav">
+                                        <div className="btn-flip" data-back="Est labore molestiae ex quos perspi sit commodi" data-front="Est labore molestiae ex quos perspi sit commodi">
+                                            <div className="front"> Explore Tool
+                                            </div>
+                                            <div className="back">Explore Tool
+                                            </div>
+                                        </div>
+                                    </button>
                                 </div>
                             </div>
 

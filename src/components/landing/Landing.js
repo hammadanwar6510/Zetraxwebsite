@@ -14,8 +14,8 @@ const Landing = () => {
     return (
         <>
             <Header />
-            <Banner />
-            <Marqee />
+            {/* <Banner />
+            <Marqee /> */}
             <Quantumprotocol />
             <Quantum />
             <Quantumtools />

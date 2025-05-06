@@ -5,8 +5,8 @@ const Quantum = () => {
     return (
         <>
             <div className="quantumparent">
-                <img src='\assets\leftsideshaddow.png' className='leftside'/>
-                <img src='\assets\rightside.png' className='rightside'/>
+                <img src='\assets\leftsideshaddow.png' className='leftside' />
+                <img src='\assets\rightside.png' className='rightside' />
                 <div className="custum-container">
                     <div className="chldqunatum">
                         <div className="cntquantum">
@@ -21,17 +21,35 @@ const Quantum = () => {
                                     <path d="M41.6666 27.0834C41.6666 37.5 34.3749 42.7084 25.7082 45.7292C25.2544 45.883 24.7614 45.8756 24.3124 45.7084C15.6249 42.7084 8.33325 37.5 8.33325 27.0834V12.5C8.33325 11.9475 8.55275 11.4176 8.94345 11.0269C9.33415 10.6362 9.86405 10.4167 10.4166 10.4167C14.5832 10.4167 19.7916 7.91671 23.4166 4.75004C23.8579 4.37296 24.4194 4.16577 24.9999 4.16577C25.5804 4.16577 26.1419 4.37296 26.5832 4.75004C30.2291 7.93754 35.4166 10.4167 39.5832 10.4167C40.1358 10.4167 40.6657 10.6362 41.0564 11.0269C41.4471 11.4176 41.6666 11.9475 41.6666 12.5V27.0834Z" fill="white" fill-opacity="0.04" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                                 <p>What post-quantum means</p>
-                                <a href="#">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                                    <g clip-path="url(#clip0_189_66)">
-                                        <path d="M10.6338 5L13 7.33333L10.6338 9.66667" stroke="#0571FE" stroke-linecap="square" />
-                                        <path d="M1 7.33325H12.1549" stroke="#0571FE" stroke-linecap="square" />
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_189_66">
-                                            <rect width="14" height="14" fill="white" />
-                                        </clipPath>
-                                    </defs>
-                                </svg></a>
+                                <a className="animated-button buttonnav">
+                                    <div className="btn-flip" data-back="Est labore molestiae ex quos perspi sit commodi" data-front="Est labore molestiae ex quos perspi sit commodi">
+                                        <div className="front">Learn More
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                <g clip-path="url(#clip0_421_107)">
+                                                    <path d="M10.6338 5L13 7.33333L10.6338 9.66667" stroke="#0571FE" stroke-linecap="square" />
+                                                    <path d="M1 7.33325H12.1549" stroke="#0571FE" stroke-linecap="square" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_421_107">
+                                                        <rect width="14" height="14" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg></div>
+                                        <div className="back"> Learn More
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                <g clip-path="url(#clip0_421_107)">
+                                                    <path d="M10.6338 5L13 7.33333L10.6338 9.66667" stroke="#0571FE" stroke-linecap="square" />
+                                                    <path d="M1 7.33325H12.1549" stroke="#0571FE" stroke-linecap="square" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_421_107">
+                                                        <rect width="14" height="14" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg></div>
+                                    </div>
+                                </a>
+
                             </div>
                             <div className="firstcard">
                                 <svg className='svgcard1' xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
@@ -42,17 +60,34 @@ const Quantum = () => {
                                     <path d="M29.1667 4.16675V12.5001C29.1667 13.6051 29.6057 14.665 30.3871 15.4464C31.1685 16.2278 32.2283 16.6667 33.3334 16.6667H41.6667" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                                 <p>How Quantum Protocol prevents that</p>
-                                <a href="#">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                                    <g clip-path="url(#clip0_189_66)">
-                                        <path d="M10.6338 5L13 7.33333L10.6338 9.66667" stroke="#0571FE" stroke-linecap="square" />
-                                        <path d="M1 7.33325H12.1549" stroke="#0571FE" stroke-linecap="square" />
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_189_66">
-                                            <rect width="14" height="14" fill="white" />
-                                        </clipPath>
-                                    </defs>
-                                </svg></a>
+                                <a className="animated-button buttonnav">
+                                    <div className="btn-flip" data-back="Est labore molestiae ex quos perspi sit commodi" data-front="Est labore molestiae ex quos perspi sit commodi">
+                                        <div className="front">Learn More
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                <g clip-path="url(#clip0_421_107)">
+                                                    <path d="M10.6338 5L13 7.33333L10.6338 9.66667" stroke="#0571FE" stroke-linecap="square" />
+                                                    <path d="M1 7.33325H12.1549" stroke="#0571FE" stroke-linecap="square" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_421_107">
+                                                        <rect width="14" height="14" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg></div>
+                                        <div className="back"> Learn More
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                <g clip-path="url(#clip0_421_107)">
+                                                    <path d="M10.6338 5L13 7.33333L10.6338 9.66667" stroke="#0571FE" stroke-linecap="square" />
+                                                    <path d="M1 7.33325H12.1549" stroke="#0571FE" stroke-linecap="square" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_421_107">
+                                                        <rect width="14" height="14" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg></div>
+                                    </div>
+                                </a>
                             </div>
                             <div className="firstcard">
                                 <svg className='svgcard1' xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
@@ -63,17 +98,34 @@ const Quantum = () => {
                                     <path d="M18.75 37.5L25 31.25L18.75 25" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                                 <p>How Quantum Protocol prevents that</p>
-                                <a href="#">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                                    <g clip-path="url(#clip0_189_66)">
-                                        <path d="M10.6338 5L13 7.33333L10.6338 9.66667" stroke="#0571FE" stroke-linecap="square" />
-                                        <path d="M1 7.33325H12.1549" stroke="#0571FE" stroke-linecap="square" />
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_189_66">
-                                            <rect width="14" height="14" fill="white" />
-                                        </clipPath>
-                                    </defs>
-                                </svg></a>
+                                <a className="animated-button buttonnav">
+                                    <div className="btn-flip" data-back="Est labore molestiae ex quos perspi sit commodi" data-front="Est labore molestiae ex quos perspi sit commodi">
+                                        <div className="front">Learn More
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                <g clip-path="url(#clip0_421_107)">
+                                                    <path d="M10.6338 5L13 7.33333L10.6338 9.66667" stroke="#0571FE" stroke-linecap="square" />
+                                                    <path d="M1 7.33325H12.1549" stroke="#0571FE" stroke-linecap="square" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_421_107">
+                                                        <rect width="14" height="14" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg></div>
+                                        <div className="back"> Learn More
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                <g clip-path="url(#clip0_421_107)">
+                                                    <path d="M10.6338 5L13 7.33333L10.6338 9.66667" stroke="#0571FE" stroke-linecap="square" />
+                                                    <path d="M1 7.33325H12.1549" stroke="#0571FE" stroke-linecap="square" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_421_107">
+                                                        <rect width="14" height="14" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg></div>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
